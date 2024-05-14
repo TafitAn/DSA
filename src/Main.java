@@ -22,6 +22,9 @@ public class Main {
         Find2ndMaxValue find2ndMaxValue = new Find2ndMaxValue();
         System.out.println("La valeur de la 2nde maximale est: " + find2ndMaxValue.find2ndMaxVal(myArray1));
         System.out.println("La valeur de la 2nde maximale est: " + find2ndMaxValue.find2ndMaxVal2(myArray1));
-        
+        Move0AtEnd move0AtEnd = new Move0AtEnd();
+        int[] myArray3 = {45, 0, 122, 69, 78, 266, 9874, 58, 23, 45 ,16, 1548};
+        System.out.println("Basculer 0 vers la dernière index: " );
+        move0AtEnd.moveZeroEnd(myArray3);
     }
 }
