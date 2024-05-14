@@ -17,8 +17,11 @@ public class Main {
         int[] myArray = {1, 2, 3, 4, 5, 6, 7};
         reverseArray.reverse(myArray, 0, 6);
         FindMinimumValue f = new FindMinimumValue();
-        int[] myArray = {45, 122, 69, 78, 266, 9874, 58, 23, 45 ,16, 1548};
-        System.out.println("La valeur minimum du tableau est: " + f.findMinVal(myArray));
+        int[] myArray1 = {45, 122, 69, 78, 266, 9874, 58, 23, 45 ,16, 1548};
+        System.out.println("La valeur minimum du tableau est: " + f.findMinVal(myArray1));
+        Find2ndMaxValue find2ndMaxValue = new Find2ndMaxValue();
+        System.out.println("La valeur de la 2nde maximale est: " + find2ndMaxValue.find2ndMaxVal(myArray1));
+        System.out.println("La valeur de la 2nde maximale est: " + find2ndMaxValue.find2ndMaxVal2(myArray1));
         
     }
 }
