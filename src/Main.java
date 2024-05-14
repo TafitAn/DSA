@@ -12,6 +12,8 @@ public class Main {
 
         ArrayUtil arrayUtil = new ArrayUtil(7);
         arrayUtil.arrayDemo();
-
+        arrayUtil.removeEven();
+        ReverseArray reverseArray = new ReverseArray();
+        reverseArray.reverse();
     }
 }
