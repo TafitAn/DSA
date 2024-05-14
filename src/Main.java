@@ -14,6 +14,7 @@ public class Main {
         arrayUtil.arrayDemo();
         arrayUtil.removeEven();
         ReverseArray reverseArray = new ReverseArray();
-        reverseArray.reverse();
+        int[] myArray = {1, 2, 3, 4, 5, 6, 7};
+        reverseArray.reverse(myArray, 0, 6);
     }
 }
