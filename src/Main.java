@@ -43,5 +43,10 @@ public class Main {
         MoveStrAtEnd moveStrAtEnd = new MoveStrAtEnd();
         String[] arrayStr = {"A", "B", "C", "D", "B", "E", "F", "G", "B", "H", "I"};
         moveStrAtEnd.moveBAtEnd(arrayStr);
+        System.out.println("\n" );
+
+        ResizeArray resize = new ResizeArray();
+        int[] myArray4 = resize.resizeArray(myArray3, (myArray3.length * 2));
+        resize.demoArray(myArray4);
     }
 }

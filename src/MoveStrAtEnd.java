@@ -16,7 +16,7 @@ public class MoveStrAtEnd {
                 j++;
             }
             for (String k : arr) {
-                System.out.print(k + ' ');
+                System.out.print(k + " ");
             }
             System.out.print("\n");
         }

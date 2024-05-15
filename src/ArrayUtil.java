@@ -15,7 +15,7 @@ public class ArrayUtil {
     public void arrayDemo(){
         int[] myArray = new int[nsize];
     }
-
+    //Remove even number inside an array
     public void removeEven() {
         int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int m = 0;
@@ -44,5 +44,4 @@ public class ArrayUtil {
             System.out.print(l + " ");
         }
     }
-
 }
