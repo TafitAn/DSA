@@ -25,6 +25,7 @@ public class Move0AtEnd {
     }
 
     public void moveZeroEnd2(int[] arr){
+        //j focused on 0 and i on non 0
         int j = 0;
         int n = arr.length;
         for(int i = 0; i < n; i++){
