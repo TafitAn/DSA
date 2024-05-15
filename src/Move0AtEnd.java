@@ -18,7 +18,7 @@ public class Move0AtEnd {
                     for (int k : arr) {
                         System.out.print(k + " ");
                     }
-                    System.out.println("");
+                    System.out.print("\n");
                 }
             }
         }
