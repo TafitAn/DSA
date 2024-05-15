@@ -4,8 +4,8 @@ public class Move0AtEnd {
     public void moveZeroEnd(int[] arr){
         int temp;
         int zeroCount = 0;
-        for (int i = 0; i < arr.length; i++){
-            if (arr[i] == 0){
+        for (int value : arr) {
+            if (value == 0) {
                 zeroCount++;
             }
         }
