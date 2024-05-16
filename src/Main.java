@@ -48,5 +48,11 @@ public class Main {
         ResizeArray resize = new ResizeArray();
         int[] myArray4 = resize.resizeArray(myArray3, (myArray3.length * 2));
         resize.demoArray(myArray4);
+        System.out.println("\n" );
+
+		FindMissingNumber find = new FindMissingNumber();
+		int[] myArray5 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15};
+		find.findMissing(myArray5);
+        System.out.println("\n" );
     }
 }
